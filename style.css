@@ -1,0 +1,183 @@
+/*
+Theme Name: Started
+Theme URI: https://www.hmhasan.com
+Author: Hasan Mahmud
+Author URI: https://www.hasan.com
+Description: Multipurpose Website with Premium Features.
+Tags: Business
+Version: 1.0
+Text Domain: started
+*/
+.widget_nav_menu ul {
+    padding: 0;
+    list-style: none;
+}
+
+.widget_nav_menu ul li a {
+    padding: 0;
+    color: #FFF;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.widget_nav_menu ul li a:hover {
+    
+    color: #06A3DA ;
+  
+}
+
+.widget_nav_menu ul li::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f054";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #06A3DA ;
+}
+
+.widget_nav_menu ul li {
+    position: relative;
+    padding-left: 20px;
+}
+
+/* Comment Form Css*/
+.comment-notes,
+.comment-form label,
+.comment-form-cookies-consent {
+    display: none;
+}
+
+.comment-form label {
+    display: none;
+}
+
+.comment-form-cookies-consent {
+    display: none;
+}
+
+.comment-form input {
+    width: 100%;
+    padding: .375rem 0.75rem;
+    border: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #6B6A75;
+    height: 55px;
+    display: inline-block;
+}
+/* .comment-form input:nth-child(1){
+   width: 48%;
+   
+}
+.comment-form input:nth-child(2){
+   width: 48%;
+   
+}
+.comment-form input:nth-child(3){
+   width: 100%;
+   
+} */
+
+.comment-form textarea {
+    height: 150px;
+    width: 100%;
+    border: none;
+    padding: .375rem 0.75rem;
+    font-size: 1rem;
+    color: #6B6A75;
+}
+
+.comment-form #submit {
+    background: #06A3DA;
+    font-weight: 600;
+    color: #FFFFFF;
+    box-shadow: inset 0 0 0 50px transparent;
+    transition: 0.5s;
+}
+
+.comment-form #submit:hover {
+    color: #000;
+    background-color: #2bb1e0;
+    border-color: #1facde;
+}
+.comment-form #submit:hover {
+    box-shadow: inset 0 0 0 0 var(--primary);
+}
+
+
+.comment-form input:focus {
+    color: #6B6A75;
+    background-color: #fff;
+    border-color: #83d1ed;
+    outline: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 0 .25rem rgba(6,163,218,0.25);
+}
+.comment-form textarea:focus {
+    color: #6B6A75;
+    background-color: #fff;
+    border-color: #83d1ed;
+    outline: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 0 .25rem rgba(6,163,218,0.25);
+}
+.comment-form #submit:focus {
+    color: #000;
+    background-color: #2bb1e0;
+    border-color: #1facde;
+    box-shadow: 0 0 0 .25rem rgba(5,139,185,0.5);
+    border-radius: 5px;
+}
+
+
+/* comment reply css*/
+
+.comment-list {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.comment-list img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+    margin: 20px 10px;
+}
+
+div#comment-3 {
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.comment-list a {
+    color: #06A3DA;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.comment-list span.says {
+    display: none;
+}
+
+a.comment-reply-link {
+    background: #f1faff;
+    padding: 10px 15px;
+    color: #000;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+/* Contact Form css*/
+
+.wpcf7-form input {
+    height: 55px;
+}
+
+.wpcf7-form-control.has-spinner.wpcf7-submit.btn.btn-dark.footer_button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
